@@ -55,7 +55,7 @@ body{
 .hero {
 	flex: 1 0 auto;
 	min-height: 100vh;
-	background: url('/img/hero/bg_hero.jpg') center center / cover no-repeat;
+	background: url('../img/hero/bg_hero.jpg') center center / cover no-repeat;
 	text-align: center;
 	padding: 165px 0px 153px 0px;
 	color: $wht;
@@ -281,7 +281,7 @@ body{
 
 .partners {
 	padding: 100px 0 105px 0;
-	background: url('/img/partners/bg_partners.jpg') center center/cover no-repeat;
+	background: url('../img/partners/bg_partners.jpg') center center/cover no-repeat;
 	text-align: center;
 	&__title {
 		font-size: 30.4px;
