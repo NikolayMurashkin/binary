@@ -2,178 +2,39 @@
 <html lang="ru">
 
 <head>
-	<title>Методология БЭМ</title>
+	<title>FLex-practice</title>
+
 	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
+
 	<body>
-		<div class="content">
-			<section class="hero">
-				<div class="hero__logo"><img src="img/hero/logo_hero.png" alt="binary"></div>
-				<div class="hero__header">Clear, smart, attractive design</div>
-				<div class="hero__subheader">for your app, logo, website</div>
-				<div class="hero__button"><button>read more</button></div>
-			</section>
-			<nav class="menu">
-				<ul class="menu__links">
-					<li>
-						<a href="#" class="menu__item menu__item-active">home</a>
-					</li>
-					<li>
-						<a href="#" class="menu__item">about us</a>
-					</li>
-					<li>
-						<a href="#" class="menu__item">portfolio</a>
-					</li>
-					<li>
-						<a href="#" class="menu__item">contact</a>
-					</li>
-				</ul>
-				
-			</nav>
-			<section class="about">
-				<div class="container">
-					<h2 class="title">ABOUT</h2>
-					<p class="about__text">We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. <br> 
-						In our design process, we make sure to stay one step ahead of the latest trends, <br>
-						never forgetting to abide by key web standards.</p>
-						<div class="about__row">
-							<div class="about__column">
-								<div class="about__item">
-									<div class="about__image"><img src="img/about/1.png" alt=""></div>
-									<h3 class="subtitle">WEB</h3>
-									<p class="about__item-text">We tend to deliver unique and 
-										functional design, through 
-										innovation and creativity.</p>
+		<div class="wrapper">
+			<div class="content">
+				<div class="hello">
+					<div class="container">
+						<div class="hello__row">
+								<div class="hello__body">
+									<div class="hello__title">Привет, друг!</div>
+									<div class="hello__text">
+										<ul class="hello__list">
+											<li>У тебя все получится!</li>
+											<li>Никогда не сдавайся!</li>
+											<li>Сегодня ты уже знаешь больше чем вчера!</li>
+											<li>Спасибо тебе за поддержку!</li>
+										</ul>
+									</div>
 								</div>
-							</div>
-							<div class="about__column">
-								<div class="about__item">
-									<div class="about__image"><img src="img/about/2.png" alt=""></div>
-									<h3 class="subtitle">iOS AND ANDROID</h3>
-									<p class="about__item-text">We seek to bring new businesses and 
-										customers closer together through valuable 
-										insights and proper targeting.</p>
-								</div>
-							</div>
-							<div class="about__column">
-								<div class="about__item">
-									<div class="about__image"><img src="img/about/3.png" alt=""></div>
-									<h3 class="subtitle">MARKETING</h3>
-									<p class="about__item-text">We’ll help you establish the right goals 
-										and build the right paths. Success depends 
-										on setting the right intention.</p>
-								</div>
-							</div>
-						</div>
-				</div>
-			</section>
-			<section class="portfolio">
-				<div class="container">
-					<h2 class="title">portfolio</h2>
-					<ul class="portfolio__tabs">
-						<a class="portfolio__links portfolio__links-active" href="#"><li>all</li></a>
-						<a class="portfolio__links" href="#"><li>web</li></a>
-						<a class="portfolio__links" href="#"><li>apps</li></a>
-						<a class="portfolio__links" href="#"><li>other</li></a>
-					</ul>
-					<div class="portfolio__gallery">
-						<div class="portfolio__row">
-							<div class="portfolio__column">
-								<img class="portfolio__image" src="img/portfolio/1.png" alt="">
-								<img class="portfolio__image" src="img/portfolio/2.png" alt="">
-								<img class="portfolio__image" src="img/portfolio/3.png" alt="">
-							</div>
-							<div class="portfolio__column">
-								<img class="portfolio__image" src="img/portfolio/4.png" alt="">
-								<img class="portfolio__image" src="img/portfolio/5.png" alt="">
-								<img class="portfolio__image" src="img/portfolio/6.png" alt="">
-							</div>
+								<div class="hello__img"><img src="img/hero_img.jpg" alt=""></div>
 						</div>
 					</div>
-					<button class="portfolio__btn">read more</button>
 				</div>
-			</section>
-			<section class="partners">
-				<h4 class="partners__title">Our partners</h4>
-				<div class="partners__icons">
-					<img class="partners__item" src="img/partners/1.png" alt="">
-					<img class="partners__item" src="img/partners/2.png" alt="">
-					<img class="partners__item" src="img/partners/3.png" alt="">
-					<img class="partners__item" src="img/partners/4.png" alt="">
-				</div>
-			</section>
-			<section class="contacts">
-				<div class="container">
-					<div class="title">contact</div>
-					<div class="contacts__row">
-						<div class="contacts__column">
-							<form class="contacts__form">
-								<div class="contacts__body">
-									<div class="contacts__row-form">
-										<div class="contacts__column-form">
-											<div class="contacts__input">
-												<div class="contacts__form-label">your name</div>
-												<input type="text" class="input">
-											</div>
-										</div>
-										<div class="contacts__column-form">
-											<div class="contacts__input">
-												<div class="contacts__form-label">your e-mail</div>
-												<input type="email" class="input">
-											</div>
-										</div>
-									</div>
-									<div class="contacts__input-form">
-										<div class="contacts__form-label">message</div>
-										<textarea name="form" class="input__area"></textarea>
-									</div>
-									<button class="contacts__btn">send</button>
-								</div>
-								
-							</form>
-						</div>
-						<div class="contacts__column">
-							<div class="contacts__body-right">
-								<div class="contacts__text">
-									<p>Have an idea for a project? Just looking to <br>
-										explore and see the possibilities? <br>
-										I'm here to help.</p>
-								</div>
-								<div class="contacts__name"><p>Postma Elena</p></div>
-								<div class="contacts__social">
-									<a href=""><div class="contacts__facebook"><img src="img/contacts/1.svg" alt="facebook"></div></a>
-									<a href=""><div class="contacts__linkedin"><img src="img/contacts/2.svg" alt="facebook"></div></a>
-								</div>
-								<div class="contacts__email">
-									e-mail: <a href="mail:postma.elena@gmail.com">postma.elena@gmail.com</a>
-								</div>
-								
-							</div>
-							
-						</div>
-						
-					</div>
-				</div>
-			</section>
+			</div>
+			<footer class="footer">Фрилансер по жизни 2019</footer>
 		</div>
-		<footer class="footer">
-			<div class="footer__logo">
-				<img src="img/logo_footer.png" alt="">
-			</div>
-			<div class="footer__menu">
-				<nav>
-					<ul>
-						<a href=""><li>Home</li></a>
-						<a href=""><li>Facebook</li></a>
-						<a href=""><li>LinkedIn</li></a>
-						<a href=""><li>Contact</li></a>
-					</ul>
-				</nav>
-			</div>
-			<div class="footer__copyright">© 2015. All Rights Reserved</div>
-			
-		</footer>
 	</body>
+
 </html>
